@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+* body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#image-track > img {
+    border-radius: 5%;
+    width: 50vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% 50%;
+    position: relative;
+}
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(0%, -50%);
+}
+
+.image:hover {
+    opacity: 0.5;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image:not(:hover) {
+    transition-duration: 0.3s;
+}
+
+#teks {
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 2.8%;
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+#teks2 {
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 12.8%;
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+#teks3 {
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 22.8%;
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+#teks4 {
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 32.8%;
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+#teks5 {
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 42.8%;
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+#teks6 {
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 52.8%;
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+#teks7 {
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 62.8%;
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+#teks8 {
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 72.8%;
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+#teks9 {
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 82.8%;
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+#teks10 {
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 92.8%;
+    font-size: 1.5vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}

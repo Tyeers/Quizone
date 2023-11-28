@@ -1,0 +1,523 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+* body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    color: white;
+    font-family: 'Poppins';
+}
+
+
+/*Soal Waktu*/
+
+#Soal {
+    opacity: 0.8;
+    font-size: 1.7vw;
+    position: absolute;
+    top: 20%;
+    left: 11%;
+}
+
+#JSW1 {
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+    left: 30%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW1:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+
+#JSW2 {
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    left: 24%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW2:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+/*Soal Waktu*/
+
+/*----------------------------------------------*/
+
+/*Soal Warna*/
+
+#Soal2 {
+    opacity: 0.8;
+    font-size: 1.7vw;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#JSW3 {
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+    left: 25%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+
+#JSW3:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#JSW4 {
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    left: 28.5%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW4:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/*Soal Warna*/
+
+/*----------------------------------------------*/
+
+/*Soal Listrik*/
+
+#Soal3 {
+    opacity: 0.8;
+    font-size: 1.7vw;
+    position: absolute;
+    top: 20%;
+    left: 23.5%;
+}
+
+#JSW5 {
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+    left: 35%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW5:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#JSW6 {
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    left: 32%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW6:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/*Soal Listrik*/
+
+/*----------------------------------------------*/
+
+/*Soal Kamera*/
+
+#Soal4 {
+    opacity: 0.8;
+    font-size: 1.7vw;
+    position: absolute;
+    top: 20%;
+    left: 27.5%;
+}
+
+#JSW7 {
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+    left: 34%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+
+#JSW7:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#JSW8 {
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    left: 36.5%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW8:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/*Soal Kamera*/
+
+/*----------------------------------------------*/
+
+/*Soal Cahaya*/
+
+#Soal5 {
+    opacity: 0.8;
+    font-size: 1.7vw;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+}
+
+#JSW9 {
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+    left: 29.7%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+
+#JSW9:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#JSW10 {
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    left: 34%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW10:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+
+/*Soal Cahaya*/
+
+/*----------------------------------------------*/
+
+/*Soal Angkasa*/
+
+#Soal6 {
+    opacity: 0.8;
+    font-size: 1.7vw;
+    position: absolute;
+    top: 20%;
+    left: 27.6%;
+}
+
+#JSW11 {
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+    left: 32%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+
+#JSW11:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#JSW12 {
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    left: 32%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW12:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/*Soal Angkasa*/
+
+/*----------------------------------------------*/
+
+/*Soal Gitar*/
+
+#Soal7 {
+    opacity: 0.8;
+    font-size: 1.7vw;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+}
+
+#JSW13 {
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+    left: 33%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+
+#JSW13:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#JSW14 {
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    left: 29.5%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW14:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/*Soal Gitar*/
+
+/*----------------------------------------------*/
+
+/*Soal Serigala*/
+
+#Soal8 {
+    opacity: 0.8;
+    font-size: 1.7vw;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+#JSW15 {
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+    left: 30%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW15:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#JSW16 {
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    left: 27.7%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW16:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/*Soal Serigala*/
+
+/*----------------------------------------------*/
+
+/*Soal Kupu Kupu*/
+
+#Soal9 {
+    opacity: 0.8;
+    font-size: 1.7vw;
+    position: absolute;
+    top: 20%;
+    left: 24%;
+}
+
+#JSW17 {
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+    left: 23.5%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+
+#JSW17:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#JSW18 {
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    left: 29.8%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW18:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/*Soal Kupu Kupu*/
+
+/*----------------------------------------------*/
+
+/*Soal Burung Hantu*/
+
+#Soal10 {
+    opacity: 0.8;
+    font-size: 1.7vw;
+    position: absolute;
+    top: 20%;
+    left: 21%;
+}
+
+#JSW19 {
+    position: absolute;
+    font-size: 1vw;
+    top: 45%;
+    left: 23.5%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+
+#JSW19:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#JSW20 {
+    position: absolute;
+    font-size: 1vw;
+    top: 55%;
+    left: 32%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#JSW20:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/*Soal Burung Hantu*/
+
+/*----------------------------------------------*/
